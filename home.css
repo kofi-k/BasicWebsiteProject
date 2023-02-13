@@ -25,11 +25,6 @@ main {
     color: #FFFFFF;
 }
 
-.background-overlay {
-    background:
-        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/resources/background1.jpg);
-}
-
 .heading {
     font-family: 'Poppins';
     font-style: normal;
@@ -48,7 +43,6 @@ main {
 .center-align {
     align-items: center;
     text-align: center;
-
 }
 
 .colum {
@@ -73,16 +67,6 @@ a {
     text-decoration: none;
 }
 
-.link-container:hover {
-    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
-    background: #121939;
-    border: 2px solid white;
-}
-
-.full-width {
-    width: 100%;
-}
-
 .link-container {
     display: flex;
     flex-direction: column;
@@ -97,19 +81,16 @@ a {
     background: #303034;
 }
 
+.link-container:hover {
+    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
+    background: #121939;
+}
+
 /* fonts */
 
 .font-bold {
     font-style: bold;
     font-weight: 500;
-}
-
-.font-medium {
-    font-size: medium
-}
-
-.font-large {
-    font-size: large
 }
 
 .font-larger {
@@ -122,34 +103,6 @@ a {
 
 .font-XXlarge {
     font-size: xx-large
-}
-
-.font-size40 {
-    font-size: 40px;
-}
-
-.weight-600 {
-    font-weight: 600;
-}
-
-.weight-700 {
-    font-weight: 700;
-}
-
-.font-height-28 {
-    line-height: 28px;
-}
-
-.font-height-24 {
-    line-height: 24px;
-}
-
-.font-height-40 {
-    line-height: 40px;
-}
-
-.font-height-36 {
-    line-height: 36px;
 }
 
 
