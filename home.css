@@ -2,16 +2,12 @@ body {
     margin: 10px;
 }
 
-.rounded-corners {
-    border-radius: 40px;
-}
-
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px;
+    padding: 120px 60px;
     gap: 40px;
     flex: wrap;
     height: 100%;
@@ -29,38 +25,23 @@ main {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 96px;
+    font-size: 128px;
     line-height: 100px;
     flex: wrap;
     align-self: stretch;
     flex-grow: 0;
 }
 
-.align-self-stretch {
-    align-self: stretch;
-}
-
-.center-align {
-    align-items: center;
-    text-align: center;
-}
-
-.colum {
+.column {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     flex: wrap;
 }
 
 .row {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     flex: wrap;
-}
-
-.gap10 {
-    gap: 10px;
 }
 
 a {
@@ -71,9 +52,9 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 20px 30px;
+    padding: 30px;
     width: 100%;
-    gap: 10px;
+    gap: 16px;
     flex: wrap;
     flex-grow: 1;
     text-decoration: none;
@@ -86,24 +67,56 @@ a {
     background: #121939;
 }
 
-/* fonts */
 
-.font-bold {
-    font-style: bold;
-    font-weight: 500;
+.rounded-corners {
+    border-radius: 26px;
 }
 
-.font-larger {
-    font-size: larger
+.align-self-stretch {
+    align-self: stretch;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.center-align {
+    align-items: center;
+    text-align: center;
+}
+
+.padding0-80px{
+    padding: 0px 120px;
+}
+
+.gap10 {
+    gap: 10px;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+
+/* fonts */
+
+.header-text {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sub-text {
+    font-size: 20px;
 }
 
 .font-Xlarge {
     font-size: x-large
 }
 
-.font-XXlarge {
-    font-size: xx-large
-}
 
 
 /* icons */
