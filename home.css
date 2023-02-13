@@ -1,0 +1,193 @@
+body {
+    margin: 10px;
+}
+
+.rounded-corners {
+    border-radius: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    gap: 40px;
+    flex: wrap;
+    height: 100%;
+    align-self: stretch;
+    flex-grow: 1;
+    background:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/resources/background1.jpg");
+    font-family: 'Roboto';
+    color: #FFFFFF;
+}
+
+.background-overlay {
+    background:
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/resources/background1.jpg);
+}
+
+.heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 100px;
+    flex: wrap;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.align-self-stretch {
+    align-self: stretch;
+}
+
+.center-align {
+    align-items: center;
+    text-align: center;
+
+}
+
+.colum {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: wrap;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex: wrap;
+}
+
+.gap10 {
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-container:hover {
+    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);    background: #555D80;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 30px;
+    width: 100%;
+    gap: 10px;
+    flex: wrap;
+    flex-grow: 1;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #303034;  
+}
+
+/* fonts */
+
+.font-bold {
+    font-style: bold;
+    font-weight: 500;
+}
+
+.font-medium {
+    font-size: medium
+}
+
+.font-large {
+    font-size: large
+}
+
+.font-larger {
+    font-size: larger
+}
+
+.font-Xlarge {
+    font-size: x-large
+}
+
+.font-XXlarge {
+    font-size: xx-large
+}
+
+.font-size40 {
+    font-size: 40px;
+}
+
+.weight-600 {
+    font-weight: 600;
+}
+
+.weight-700 {
+    font-weight: 700;
+}
+
+.font-height-28 {
+    line-height: 28px;
+}
+
+.font-height-24 {
+    line-height: 24px;
+}
+
+.font-height-40 {
+    line-height: 40px;
+}
+
+.font-height-36 {
+    line-height: 36px;
+}
+
+
+/* icons */
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
