@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="trending tech stuff">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/14ef56160b.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Som'n trendi</title>
+    <style>
+        /* icons */
+        .material-icons-round {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            /* Preferred icon size */
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+
+            /* Support for all WebKit browsers. */
+            -webkit-font-smoothing: antialiased;
+            /* Support for Safari and Chrome. */
+            text-rendering: optimizeLegibility;
+
+            /* Support for Firefox. */
+            -moz-osx-font-smoothing: grayscale;
+
+            /* Support for IE. */
+            font-feature-settings: 'liga';
+        }
+
+        .round {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 6px;
+            background: #FFFFFF;
+            border-radius: 100px;
+            color: #1B1B1F;
+        }
+    </style>
+</head>
+
+<body style=" 
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding:20px;
+gap: 40px;
+background: #FFFFFF;">
+    <!-- page heading -->
+    <header style="
+    display: flex;
+    font-family: 'Roboto';
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px;
+    gap: 20px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/resources/background2.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+    border-radius: 40px;
+    flex: wrap;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;">
+
+        <!-- link to go home -->
+        <div id="back">
+            <a href="HomePage.html" style="display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    flex: wrap;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    ">
+                <span class="material-icons-round round">
+                    arrow_back
+                </span>
+                <span>Goto Home</span>
+            </a>
+        </div>
+        <!-- something trendi text -->
+        <span style="font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 96px;   
+        line-height: 100px;     
+        flex: wrap;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;">
+            Som'n trendi
+        </span>
+        <span style="    
+        font-size: 24px;   
+        flex: wrap;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;">
+            This page contains images with captions of
+            trending tech events and things in no particular order.
+        </span>
+    </header>
+
+    <!-- images -->
+    <div style="display: flex;
+    flex-direction: row;
+    font-family: 'Roboto';
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;   
+    flex: auto;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;">
+    <!-- image 1 -->
+        <div style="display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 50%;
+        padding: 0px 0px 10px;
+        gap: 24px;
+        background: #DDE1FF;
+        border-radius: 24px;
+        flex: auto;
+        order: 0;
+        flex-grow: 1;">
+        <!-- elon image and caption -->
+            <img src="/resources/elon musk.jpg" height="400px" style="border-radius: 24px;">
+            <div style="display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px 20px 10px;
+            gap: 10px;
+            flex: none;
+            order: 1;
+            align-self: stretch;
+            flex-grow: 0;">
+                <span style="
+            font-weight: 600;
+            font-size: 28px;
+            color: #121939;
+            flex: auto;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;">
+                    Elon briefs on SpaceX
+                </span>
+
+                <span style="
+                font-size: 24px;
+                color: #121939;
+                flex: auto;
+                max-lines: 3;
+                order: 0;
+                align-self: stretch;
+                flex-grow: 0;">
+                        Lorem ipsum dolor sit amet,consectetur adipiscing elit,
+                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </span>
+            </div>
+        </div>
+
+        <!-- image 2 -->
+        <div style="display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 0px 10px;
+        gap: 24px;
+        width: 100%;
+        background: #DDE1FF;
+        border-radius: 24px;
+        flex: auto;
+        order: 0;
+        flex-grow: 1;">
+        <!-- elon image and caption -->
+            <img src="/resources/metaverse.jfif" height="400px" style="border-radius: 24px;">
+            <div style="display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px 20px 10px;
+            gap: 10px;
+            flex: none;
+            order: 1;
+            align-self: stretch;
+            flex-grow: 0;">
+                <span style="
+            font-weight: 600;
+            font-size: 28px;
+            color: #121939;
+            flex: auto;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;">
+                    Elon briefs on SpaceX
+                </span>
+
+                <span style="
+                font-size: 24px;
+                color: #121939;
+                flex: auto;
+                max-lines: 3;
+                order: 0;
+                align-self: stretch;
+                flex-grow: 0;">
+                        Lorem ipsum dolor sit amet,consectetur adipiscing elit,
+                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
