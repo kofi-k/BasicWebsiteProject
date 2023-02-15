@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="podcasts on web3">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/14ef56160b.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcasts</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* icons */
+        .material-icons-round {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            /* Preferred icon size */
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+
+            /* Support for all WebKit browsers. */
+            -webkit-font-smoothing: antialiased;
+            /* Support for Safari and Chrome. */
+            text-rendering: optimizeLegibility;
+
+            /* Support for Firefox. */
+            -moz-osx-font-smoothing: grayscale;
+
+            /* Support for IE. */
+            font-feature-settings: 'liga';
+        }
+
+        .round {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 6px;
+            background: #FFFFFF;
+            border-radius: 100px;
+            color: #1B1B1F;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .align-items-start {
+            align-items: flex-start;
+        }
+
+        .align-self-stretch {
+            align-self: stretch;
+        }
+
+        .color-white {
+            background: #FFFFFF;
+        }
+
+        .padding20 {
+            padding: 20px;
+        }
+
+        .padding40 {
+            padding: 40px;
+        }
+
+        .gap40 {
+            gap: 40px;
+        }
+
+        .heading {
+            font-family: 'Roboto';
+            font-size: 24px;  
+            padding: 60px;
+            gap: 20px;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/resources/background2.jpg);
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            flex: wrap;
+            order: 0;
+            flex-grow: 0;
+            color: #FFFFFF;
+        }
+
+        .border-radius32 {
+            border-radius: 32px;
+        }
+
+        a {
+            text-decoration: none;
+            align-items: center;
+            gap: 16px;
+            font-size: 24px;
+            color: #FFFFFF;
+        }
+
+        .heading-text {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 96px;
+            line-height: 100px;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body class="column ">
+
+    <!-- page heading -->
+    <header class="heading column align-items-start align-self-stretch border-radius32">
+
+        <!-- link to go home -->
+        <div id="back">
+            <a href="HomePage.html" class="row align-self-stretch ">
+                <span class="material-icons-round round">
+                    arrow_back
+                </span>
+                <span>Goto Home</span>
+            </a>
+        </div>
+
+        <!-- something trendi text -->
+        <span class="heading-text align-self-stretch">
+            Podcasts on web3
+        </span>
+        <span class="align-self-stretch">
+            This page contains podcasts for web-development.
+        </span>
+    </header>
+
+</body>
+
+</html>
