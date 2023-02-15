@@ -15,8 +15,8 @@ main {
     flex-grow: 1;
     background:
         linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/resources/background1.jpg");
-    background-attachment: scroll;
-    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: 'Roboto';
     color: #FFFFFF;
 }
