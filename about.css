@@ -56,6 +56,12 @@ a {
     font-size: 24px;
     color: #1B1B1F;
 }
+a:hover {
+    padding-right: 6px;
+    border-radius: 50px;
+    background: #1B1B1F;
+    color: #FFFFFF;
+}
 
 .profile {
     box-sizing: border-box;
