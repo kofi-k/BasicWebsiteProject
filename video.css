@@ -40,6 +40,7 @@
     color: #1B1B1F;
 }
 
+
 .column {
     display: flex;
     flex-direction: column;
@@ -132,6 +133,13 @@ a {
     gap: 16px;
     font-size: 24px;
     color: #FFFFFF;
+}
+
+a:hover {
+    padding-right: 6px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    color: #1B1B1F;
 }
 
 .heading-text {
