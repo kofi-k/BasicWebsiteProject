@@ -14,9 +14,10 @@
 </head>
 
 <body class="row gap40">
-    <div class="column profile gap40 align-self-stretch border-radius32 align-items-center">
+    <!-- profile summary column -->
+    <div class="column profile gap40 align-self-stretch border-radius32 align-items-center width100">
         <!-- back link -->
-        <div class="row align-self-stretch">
+        <div id="back" class="row align-self-stretch">
             <a href="HomePage.html" class="row">
                 <span class="material-icons-round round">
                     arrow_back
@@ -25,7 +26,7 @@
             </a>
         </div>
         
-        <!-- star profile -->
+        <!-- star profile svg -->
         <div class="align-self-stretch svg-container">
             <svg width=100% height=100% viewBox="0 0 368 367" fill="none" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -54,6 +55,22 @@
         </div>
     </div>
 
+    <!-- humble brags -->
+    <div class="column align-self-stretch align-items-end width100">
+        <span id="toggle-button" class="material-icons-round toggle-button">
+            light_mode
+            <!--todo toggle dark_mode -->
+        </span>
+        <div class="column align-self-stretch justify-content-center height100">
+            <p class="body-text">
+                Hey, they call me <br/><span style="color: #0D4BEE;"> Kofi K,</span> ...and I'm not your regular tech guy. 
+            </p>
+            <p class="font24">
+                So, I put a clean code and a slapping UI together to make to some lovely joubley <b>Android Apps.</b> 
+                But look at me here also doing madness with just HTML and CSS!
+            </p>
+        </div>
+    </div>
 </body>
 
 </html>
