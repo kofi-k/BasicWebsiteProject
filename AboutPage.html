@@ -57,18 +57,27 @@
 
     <!-- humble brags -->
     <div class="column align-self-stretch align-items-end width100">
-        <span id="toggle-button" class="material-icons-round toggle-button">
+        <span id="icon" class="material-icons-round toggle-button">
             light_mode
-            <!--todo toggle dark_mode -->
         </span>
+        <script>
+            const toggle = document.querySelector('.toggle-button');
+            toggle.addEventListener('click', () =>{
+                let element = document.body;
+                element.classList.toggle('dark-mode')
+                document.getElementById("icon").innerHTML = "dark_mode"
+            })
+            
+        </script>
         <div class="column align-self-stretch justify-content-center height100">
             <p class="body-text">
-                Hey, they call me <br/><span style="color: #0D4BEE;"> Kofi K,</span> ...and I'm not your regular tech guy. 
+                Hey, they call me <br/><span class="color-primary">
+                     Kofi K,</span> ...and I'm not your regular tech guy!
             </p>
-            <p class="font24">
+            <span class="font24">
                 So, I put a clean code and a slapping UI together to make to some lovely joubley <b>Android Apps.</b> 
-                But look at me here also doing madness with just HTML and CSS!
-            </p>
+                <br/>But look at me here also doing madness with just HTML and CSS!
+            </span>
         </div>
     </div>
 </body>
