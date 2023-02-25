@@ -8,7 +8,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutorials for you</title>
 </head>
@@ -25,7 +27,7 @@
                 <span>Goto Home</span>
             </a>
         </div>
-        
+
         <!-- star profile svg -->
         <div class="align-self-stretch svg-container">
             <svg width=100% height=100% viewBox="0 0 368 367" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -62,21 +64,25 @@
         </span>
         <script>
             const toggle = document.querySelector('.toggle-button');
-            toggle.addEventListener('click', () =>{
+            toggle.addEventListener('click', () => {
                 let element = document.body;
-                element.classList.toggle('dark-mode')
-                document.getElementById("icon").innerHTML = "dark_mode"
-            })
-            
+                element.classList.toggle('dark-mode');
+                var icon = document.getElementById("icon");
+                if (icon.innerHTML === "light_mode") {
+                    icon.innerHTML = "dark_mode"
+                } else {
+                    icon.innerHTML = "light_mode"
+                }
+            })            
         </script>
         <div class="column align-self-stretch justify-content-center height100">
             <p class="body-text">
-                Hey, they call me <br/><span class="color-primary">
-                     Kofi K,</span> ...and I'm not your regular tech guy!
+                Hey, they call me <br /><span class="color-primary">
+                    Kofi K,</span> ...and I'm not your regular tech guy!
             </p>
             <span class="font24">
-                So, I put a clean code and a slapping UI together to make to some lovely joubley <b>Android Apps.</b> 
-                <br/>But look at me here also doing madness with just HTML and CSS!
+                So, I put a clean code and a slapping UI together to make to some lovely joubley <b>Android Apps.</b>
+                <br />But look at me here also doing madness with just HTML and CSS!
             </span>
         </div>
     </div>
