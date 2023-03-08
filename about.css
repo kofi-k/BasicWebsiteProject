@@ -58,6 +58,17 @@ body {
     background-color:  var(--background);
 }
 
+.rotate{
+    animation: loading 10s linear infinite;
+   }
+   @keyframes loading {
+    0% { 
+      transform: rotate(0); 
+    }
+    100% { 
+      transform: rotate(360deg);
+    }
+   }
 .round {
     display: flex;
     flex-direction: row;
