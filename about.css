@@ -29,8 +29,9 @@
     /* Support for IE. */
     font-feature-settings: 'liga';
 }
+
 /* colors */
-:root{
+:root {
     --primary: #0D4BEE;
     --on-primary-container: #001354;
     --secondary-container: #DDE1FF;
@@ -39,6 +40,8 @@
     --background: #FEFBFF;
     --on-background: #1B1B1F;
     --neutral-variant70: #ABAAB4;
+    --error-container: #F9DEDC;
+    --on-error-container: #410E0B;
 }
 
 .dark-mode {
@@ -50,25 +53,31 @@
     --background: #1B1B1F;
     --on-background: #E4E1E6;
     --neutral-variant70: #ABAAB4;
+    --error-container: #8C1D18;
+    --on-error-container: #F9DEDC;
 }
 
 body {
-    margin: 10px;
+    margin: 20px;
     font-family: 'Roboto';
-    background-color:  var(--background);
+    background-color: var(--background);
+    margin-bottom: 30px;
 }
 
-.rotate{
+.rotate {
     animation: loading 10s linear infinite;
-   }
-   @keyframes loading {
-    0% { 
-      transform: rotate(0); 
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0);
     }
-    100% { 
-      transform: rotate(360deg);
+
+    100% {
+        transform: rotate(360deg);
     }
-   }
+}
+
 .round {
     display: flex;
     flex-direction: row;
@@ -92,9 +101,11 @@ body {
     cursor: pointer;
     transition: all .1s ease-in-out;
 }
-.toggle-button:active{
+
+.toggle-button:active {
     transform: translateY(-3px);
 }
+
 .toggle-button span {
     pointer-events: none;
 }
@@ -107,6 +118,7 @@ a {
     font-size: 24px;
     color: var(--on-background);
 }
+
 #back a:hover {
     padding-right: 6px;
     border-radius: 50px;
@@ -119,9 +131,10 @@ a {
     border: 1.5px solid var(--neutral-variant70);
     align-items: center;
     padding: 30px 20px;
-    color:var(--on-background);
+    color: var(--on-background);
     font-size: 24px;
 }
+
 .profile .text-align {
     text-align: center;
 }
@@ -157,10 +170,10 @@ a {
 }
 
 i:hover {
-    color:var(--primary);
+    color: var(--primary);
 }
 
-i{
+i {
     width: 40px;
     height: 20px;
 }
@@ -176,6 +189,7 @@ i{
 .width100 {
     width: 100%;
 }
+
 .width50 {
     width: 50%;
 }
@@ -189,6 +203,23 @@ i{
     padding: 0px 40px;
     width: 100%;
     height: 360px;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: var(--on-error-container);
+    background-color: var(--error-container);
+    border-radius: 32px;
+    padding: 10px 20px;
+    transition: all .1s ease-in-out;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    gap: 30px;
 }
 
 .name-text {
@@ -207,15 +238,18 @@ i{
     color: var(--on-background);
     padding: 0 20px;
 }
-.body-text .color-primary{
+
+.body-text .color-primary {
     color: var(--primary);
 }
-.font24{
+
+.font24 {
     font-size: 24px;
     color: var(--on-background);
-    padding: 0 20px;    
+    padding: 0 20px;
 }
-.height100{
+
+.height100 {
     height: 100%;
 }
 
