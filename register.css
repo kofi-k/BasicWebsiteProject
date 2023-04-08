@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+/* icons */
+.material-icons-round {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.round {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    color: #1B1B1F;
+}
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-self-stretch {
+    align-self: stretch;
+}
+
+.color-white {
+    background: #FFFFFF;
+}
+
+.color-secondary-container {
+    background: #DDE1FF;
+}
+
+
+.padding20 {
+    padding: 20px;
+}
+
+ul {
+    margin: 0;
+    padding-left: 40px;
+}
+
+.padding40 {
+    padding: 40px;
+}
+
+.gap40 {
+    gap: 40px;
+}
+
+.gap10 {
+    gap: 10px;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.height400 {
+    height: 400px;
+}
+
+.heading {
+    font-family: 'Roboto';
+    font-size: 24px;
+    padding: 60px;
+    gap: 20px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/resources/background2.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    flex: wrap;
+    order: 0;
+    flex-grow: 0;
+    color: #FFFFFF;
+}
+
+.border-radius32 {
+    border-radius: 32px;
+}
+
+.border-radius20 {
+    border-radius: 20px;
+}
+
+.opacity {
+    opacity: 0.6;
+    font-size: x-large;
+    color: #001354;
+}
+
+a {
+    text-decoration: none;
+    align-items: center;
+    gap: 16px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+a:hover {
+    padding-right: 6px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    color: #1B1B1F;
+}
+
+.heading-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 100px;
+    flex-grow: 1;
+}
+
+.align-items-center {
+    align-items: center;
+}
