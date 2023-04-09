@@ -39,7 +39,7 @@
         <form>
             <!-- Profile info -->
             <div class="column gap10 align-self-stretch">
-                <span>Profile info</span>
+                <span class="group-heading">Profile info</span>
                 <div class="input-group">
                     <!-- Name -->
                     <input class="name-input" type="text" name="name" id="name" placeholder="Full name" required>
@@ -49,7 +49,7 @@
                         <div class="column gap10 align-self-stretch width100">
                             <label for="dob">Date of birth</label>
                             <div class="input-container">
-                               
+
                                 <input type="date" name="dob" id="dob" required>
                             </div>
                         </div>
@@ -74,6 +74,129 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Private info -->
+            <div class="column gap10 align-self-stretch">
+                <div class="row gap10 align-items-center">
+                    <span class="material-icons-round">
+                        lock
+                    </span>
+                    <span class="group-heading">Private</span>
+                </div>
+                <div class="input-group">
+                    <div class="column gap10 align-self-stretch width100">
+                        <label for="phone">Phone</label>
+                        <div class="input-container">
+                            <span class="material-icons-round">
+                                phone
+                            </span>
+                            <input type="tel" name="phone" id="phone" size="10" placeholder="0500123456" required>
+                        </div>
+                    </div>
+
+                    <div class="row align-self-stretch gap40 width100">
+                        <!-- email -->
+                        <div class="column gap10 align-self-stretch width100">
+                            <label for="email">Email</label>
+                            <div class="input-container">
+                                <span class="material-icons-round">
+                                    email
+                                </span>
+                                <input type="email" name="email" id="email" placeholder="mymail@gmail.com" required>
+                            </div>
+                        </div>
+
+                        <!-- add a password -->
+                        <div class="column gap10 align-self-stretch width100">
+                            <label for="password">Add a password</label>
+                            <div class="input-container">
+                                <span class="material-icons-round">
+                                    lock
+                                </span>
+                                <input type="password" name="password" id="password" placeholder="password here"
+                                    required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- check  box -->
+                    <div class="column gap10 align-self-stretch">
+                        <span>I am a </span>
+                        <div class="row gap10 align-items-center">
+                            <!-- student -->
+                            <div class="row gap10 padding-right">
+                                <input type="checkbox" name="student" id="student" required>
+                                <label for="student">Student</label>
+                            </div>
+                            <!-- graduate -->
+                            <div class="row gap10 padding-right">
+                                <input type="checkbox" name="graduate" id="graduate" required>
+                                <label for="graduate">Graduate</label>
+                            </div>
+                            <!-- worker -->
+                            <div class="row gap10 padding-right">
+                                <input class="padding-left" type="checkbox" name="worker" id="worker" required>
+                                <label for="worker">Worker</label>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LINKS & other  -->
+
+            <div class="column gap10 align-self-stretch">
+                <div class="row gap10 align-items-center">
+                    <span class="material-icons-round">
+                        link
+                    </span>
+                    <span class="group-heading">LINKS & others</span>
+                </div>
+                <hr>
+            </div>
+
+            <!-- links -->
+            <div class="row align-self-stretch gap40 width100">
+                <!-- linkedIn -->
+                <div class="column gap10 align-self-stretch width100">
+                    <label for="linkedIn">LinkedIn</label>
+                    <div class="input-container">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <input type="url" name="linkedIn" id="linkedIn" placeholder="Your LinkedIn URL" required>
+                    </div>
+                </div>
+
+                <!-- twitter-->
+                <div class="column gap10 align-self-stretch width100">
+                    <label for="twitter">Twitter</label>
+                    <div class="input-container">
+                        <i class="fa-brands fa-twitter"></i>
+                        <input type="url" name="twitter" id="twitter" placeholder="Your twitter URL" required>
+                    </div>
+                </div>
+            </div>
+
+            <!-- subscribe -->
+            <div class="column gap10 align-self-stretch">
+                <span class="group-heading">Subscribe to our newsletter?</span>
+                <div class="row gap10 align-items-center">
+                    <!-- yes -->
+                    <div class="row gap10 padding-right">
+                        <input type="radio" name="subscribe" id="yes" required>
+                        <label for="yes">Yes</label>
+                    </div>
+                    <!-- no -->
+                    <div class="row gap10 padding-right">
+                        <input type="radio" name="subscribe" id="no" required>
+                        <label for="no">No</label>
+                    </div>
+                </div>
+
+                <!-- submit -->
+                <div class="column align-self-stretch">
+                    <button class="button-prm" type="submit">Submit</button>
+                </div>
         </form>
     </main>
 
