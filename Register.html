@@ -30,13 +30,51 @@
 
         <!-- register text -->
         <span class="heading-text align-self-stretch">
-            Join our tech community 
-            <b>supa-fast⚡️.</b> 
+            Join our tech community
+            <b>supa-fast⚡️.</b>
         </span>
     </header>
 
     <main>
-       
+        <form>
+            <!-- Profile info -->
+            <div class="column gap10 align-self-stretch">
+                <span>Profile info</span>
+                <div class="input-group">
+                    <!-- Name -->
+                    <input class="name-input" type="text" name="name" id="name" placeholder="Full name" required>
+
+                    <div class="row align-self-stretch gap40 width100">
+                        <!-- DOB -->
+                        <div class="column gap10 align-self-stretch width100">
+                            <label for="dob">Date of birth</label>
+                            <div class="input-container">
+                               
+                                <input type="date" name="dob" id="dob" required>
+                            </div>
+                        </div>
+
+                        <!-- Gender -->
+                        <div class="column gap10 align-self-stretch width100">
+                            <label for="dob">Gender</label>
+                            <div class="input-container ">
+                                <!-- drop down of gender types -->
+                                <div class="width100 align-self-stretch">
+                                    <select class="selectItem align-self-stretch" name="gender" title="Gender">
+                                        <option value="none">None</option>
+                                        <option value="mael">Male</option>
+                                        <option value="female">Female</option>
+                                    </select>
+                                </div>
+                                <span class="material-icons-round">
+                                    arrow_drop_down
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
     </main>
 
 </body>

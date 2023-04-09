@@ -160,3 +160,71 @@ a:hover {
 .align-items-center {
     align-items: center;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 24px;
+    gap: 40px;
+    align-self: stretch;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: large;
+    color: #1B1B1F;
+}
+
+.input-group {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 38px;
+    gap: 24px;
+    border: 1px solid #A9ABB4;
+    border-radius: 12px;
+    align-self: stretch;
+
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    align-content: flex-start;
+    padding: 4px 16px;
+    border: 1px solid #A9ABB4;
+    border-radius: 4px 4px 0px 0px;
+}
+
+input {
+    outline: none;
+    border: none;
+    align-self: stretch;
+    font-size: large;
+}
+
+input[type="date"] {
+    padding: 3px;
+}
+
+
+.name-input {
+   border-bottom: #A9ABB4 1px solid;
+}
+.name-input:focus {
+    border-bottom: #1B1B1F 1.5px solid;
+}
+
+select{
+    outline: none;
+    border: none;
+    appearance: none;
+    align-self: stretch;
+}
+
+.selectItem {
+    width: 100%;
+    padding: 0 8px;
+}
