@@ -177,3 +177,7 @@ a:hover {
 .video-caption span {
     max-lines: 1;
 }
+
+main{
+    margin-bottom: 30px;
+}
