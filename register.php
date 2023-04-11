@@ -6,12 +6,12 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 $phone = $_POST['phone'];
 $birthday = $_POST['dob'];
-$student  = $_POST['student'];
-$graduate = $_POST['graduate'];
-$employed = $_POST['employed'];
+$student  = filter_input(INPUT_POST, 'student', FILTER_VALIDATE_BOOLEAN);
+$graduate = filter_input(INPUT_POST, 'graduate', FILTER_VALIDATE_BOOLEAN);
+$employed = filter_input(INPUT_POST, 'employed', FILTER_VALIDATE_BOOLEAN);
 $linkedInUrl = $_POST['linkedIn'];
 $twitterUrl = $_POST['twitter'];
-$subscribe = $_POST['subscribe'];
+$subscribe = filter_input(INPUT_POST, 'subscribe', FILTER_VALIDATE_BOOLEAN);
 
 
 $hostname = "localhost";
@@ -33,6 +33,8 @@ $con = mysqli_connect(
  } else {
     echo "Connection successful";
  }
+
+ var_dump($name, $email, $password, $phone, $birthday, $student, $graduate, $employed, $linkedInUrl, $twitterUrl, $subscribe);
 
 // create the query
 
