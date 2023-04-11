@@ -14,7 +14,7 @@ main {
     align-self: stretch;
     flex-grow: 1;
     background:
-        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/resources/background1.jpg");
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("resources/background1.jpg");
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Roboto';
