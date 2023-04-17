@@ -50,7 +50,8 @@ $sql = "INSERT INTO `register` (
     `employed`,
     `linkedIn`,
     `twitter`,
-    `subscribe`
+    `subscribe`,
+    `timestamp`
 ) VALUES (
       NULL,
     '$name',
@@ -63,7 +64,8 @@ $sql = "INSERT INTO `register` (
     '$employed',
     '$linkedInUrl',
     '$twitterUrl',
-    '$subscribe'
+    '$subscribe',
+    now()
 )";
 
 // execute the query
