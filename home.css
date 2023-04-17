@@ -7,10 +7,10 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 120px 60px;
+    padding: 125px 100px;
     gap: 40px;
-    flex: wrap;
     height: 100%;
+    border-radius: 26px;
     align-self: stretch;
     flex-grow: 1;
     background:
@@ -65,6 +65,10 @@ a {
 .link-container:hover {
     box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
     background: #121939;
+} 
+.link-container:active{
+    transform: translateY(-3px);
+
 }
 
 
@@ -87,10 +91,6 @@ a {
 .center-align {
     align-items: center;
     text-align: center;
-}
-
-.padding0-80px{
-    padding: 0px 120px;
 }
 
 .gap10 {

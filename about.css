@@ -58,14 +58,13 @@
 }
 
 body {
-    margin: 20px;
+    margin: 50px 30px;
     font-family: 'Roboto';
     background-color: var(--background);
-    margin-bottom: 30px;
 }
 
 .rotate {
-    animation: loading 10s linear infinite;
+    animation: loading 18s linear infinite;
 }
 
 @keyframes loading {
@@ -102,6 +101,11 @@ body {
     transition: all .1s ease-in-out;
 }
 
+.toggle-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+}
+
 .toggle-button:active {
     transform: translateY(-3px);
 }
@@ -133,6 +137,12 @@ a {
     padding: 30px 20px;
     color: var(--on-background);
     font-size: 24px;
+}
+
+.profile:hover {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px);
+    border: none;
 }
 
 .profile .text-align {
@@ -220,6 +230,7 @@ button {
 button:hover {
     transform: translateY(-3px);
     gap: 30px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
 }
 
 .name-text {

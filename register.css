@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-main{
+main {
     margin-bottom: 30px;
 }
 
@@ -44,6 +44,9 @@ main{
     color: #1B1B1F;
 }
 
+.background {
+    background: linear-gradient(0deg, rgba(13, 75, 238, 0.05), rgba(13, 75, 238, 0.05)), #FEFBFF;
+}
 
 .column {
     display: flex;
@@ -55,13 +58,14 @@ main{
     flex-direction: row;
 }
 
-.padding-right{
+.padding-right {
     padding-right: 20px;
 }
 
 .align-items-start {
     align-items: flex-start;
 }
+
 .align-items-center {
     align-items: center;
 }
@@ -195,7 +199,17 @@ form {
     border: 1px solid #A9ABB4;
     border-radius: 12px;
     align-self: stretch;
+    background: #FEFBFF;
+}
 
+.input-group input {
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+}
+
+.input-group select{
+    background-color: transparent;
 }
 
 .group-heading {
@@ -206,10 +220,11 @@ form {
     color: #1B1B1F;
 }
 
-hr{
+hr {
     border: 1px solid #A9ABB4;
     width: 100%;
 }
+
 button {
     border: none;
     background: transparent;
@@ -251,6 +266,7 @@ button {
     border-radius: 4px 4px 0px 0px;
 }
 
+
 input {
     outline: none;
     border: none;
@@ -265,13 +281,14 @@ input[type="date"] {
 
 
 .name-input {
-   border-bottom: #A9ABB4 1px solid;
+    border-bottom: #A9ABB4 1px solid;
 }
+
 .name-input:focus {
     border-bottom: #1B1B1F 1.5px solid;
 }
 
-select{
+select {
     outline: none;
     border: none;
     appearance: none;
