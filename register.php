@@ -1,5 +1,35 @@
 <?php
 
+// Validate input data
+$errors = [];
+
+
+if (empty($_POST['name'])) {
+    $errors[] = "Name is required";
+}
+if (empty($_POST['email'])) {
+    $errors[] = "Email is required";
+}
+if (!preg_match("/^[a-zA-Z ]*$/", $_POST['name'])) {
+    $errors[] = "Only letters for the name session";
+}
+// check if password is less than 8 characters
+if (strlen($_POST['password']) < 8) {
+    $errors[] = "Password must be at least 8 characters";
+}
+
+// Check if there are any validation errors
+if (!empty($errors)) {
+    // Display the validation errors
+    foreach ($errors as $error) {
+        echo $error . "<br>";
+    }
+    // You can also redirect back to the form and display the errors there
+    // header("Location: your-form-page.php");
+    exit;
+}
+
+
 // get the data from the form
 $name = $_POST['name'];
 $email = $_POST['email'];
