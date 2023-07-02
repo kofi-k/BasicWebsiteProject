@@ -1,6 +1,6 @@
 # Mini Web Project
 
-## I'm not a web dev, this's only a school project.
+## I'm not a web dev, this's only a school assignment.
 
 ### Tech stack 
 * HTML
