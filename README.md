@@ -1,10 +1,12 @@
-# WebSiteProjectOne
+# Mini Web Project
 
-## I'm not a web dev, this's only a school project and look the at this madness I did with just basic
+## I'm not a web dev, this's only a school project.
 
+### Tech stack 
 * HTML
 * CSS
-* JavaScript
+* PHP
+* A tiny drop of JavaScript
 
 | Home page  | Images Page |
 | ------------- | ------------- |
