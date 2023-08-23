@@ -1,10 +1,10 @@
 # WebSiteProjectOne
 
-## I'm not a web dev, this's only a school project and look the at this madness I did with just basic
+## I'm not a web dev, this's only a school project with basic
 
 * HTML
 * CSS
-* JavaScript
+* ...and a line of JavaScript
 
 | Home page  | Images Page |
 | ------------- | ------------- |
